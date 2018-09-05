@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="color_gray">#4f4343</color>
+    <color name="favorite_button_background">#00FFFFFF</color>
+    <color name="comment_button_background">#00FFFFFF</color>
+    <color name="share_button_background">#00FFFFFF</color>
 </resources>
