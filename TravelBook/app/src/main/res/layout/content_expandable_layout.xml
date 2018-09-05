@@ -10,18 +10,19 @@
         android:id="@+id/sort_by"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="10dp"
-        android:text="Sort By"
-        android:textColor="#FF393939"
-        android:textSize="14sp"
+        android:layout_marginStart="@dimen/sort_by_margin_start"
+        android:layout_marginTop="@dimen/sort_by_margin_top"
+        android:text="@string/text_sort_by"
+        android:textColor="@color/sort_by_text_color"
+        android:textSize="@dimen/sort_by_text_size"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <android.support.constraint.ConstraintLayout
+        android:id="@+id/buttons_layout"
         android:layout_width="match_parent"
-        android:layout_height="95dp"
-        android:layout_marginTop="18dp"
+        android:layout_height="@dimen/buttons_layout_height"
+        android:layout_marginTop="@dimen/buttons_layout_margin_top"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@id/sort_by">
 
