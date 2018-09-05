@@ -1,7 +1,7 @@
 package com.travel.book.model.travelogue;
 
 import com.google.gson.annotations.SerializedName;
-import com.training.retrofit.model.user.IncludedUserPlace;
+import com.travel.book.model.user.IncludedUserPlace;
 
 /**
  * Created by Tran Manh on 8/31/2018.
