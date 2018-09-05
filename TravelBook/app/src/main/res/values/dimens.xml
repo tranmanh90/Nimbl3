@@ -27,6 +27,16 @@
     <dimen name="sort_by_text_size">14sp</dimen>
     <dimen name="buttons_layout_height">95dp</dimen>
     <dimen name="buttons_layout_margin_top">18dp</dimen>
+    <dimen name="tool_bar_padding_end">20dp</dimen>
+    <dimen name="tool_bar_padding_start">20dp</dimen>
+    <dimen name="search_button_width">33dp</dimen>
+    <dimen name="search_button_height">33dp</dimen>
+    <dimen name="settings_button_width">33dp</dimen>
+    <dimen name="settings_button_height">33dp</dimen>
+    <dimen name="header_expandable_layout_margin_bottom">18dp</dimen>
+    <dimen name="header_expandable_layout_margin_start">28dp</dimen>
+    <dimen name="above_text_height">1dp</dimen>
+    <dimen name="below_text_height">1dp</dimen>
 
 
 </resources>
