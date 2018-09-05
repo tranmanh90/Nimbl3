@@ -37,6 +37,4 @@
     <dimen name="header_expandable_layout_margin_start">28dp</dimen>
     <dimen name="above_text_height">1dp</dimen>
     <dimen name="below_text_height">1dp</dimen>
-
-
 </resources>
