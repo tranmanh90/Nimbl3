@@ -68,11 +68,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/address_blur_margin_start"
             android:layout_marginTop="@dimen/address_blur_margin_top"
+            android:width="@dimen/address_blur_width"
+            android:height="@dimen/address_blur_height"
             android:background="@drawable/address_blur"
             android:gravity="center"
             android:lineSpacingMultiplier="1.25"
-            android:height="@dimen/address_blur_height"
-            android:width="@dimen/address_blur_width"
             app:layout_constraintStart_toStartOf="@id/media_image"
             app:layout_constraintTop_toTopOf="@id/media_image" />
 
@@ -107,6 +107,26 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/media_image" />
+
+        <ImageView
+            android:id="@+id/media_count_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/media_count_image_margin_bottom"
+            android:layout_marginStart="@dimen/media_count_image_margin_start"
+            android:src="@drawable/media_count_white"
+            app:layout_constraintBottom_toBottomOf="@id/media_image"
+            app:layout_constraintStart_toStartOf="@id/media_image" />
+
+        <TextView
+            android:id="@+id/media_text_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/media_text_count_margin_top"
+            android:textColor="@color/media_count_text_color"
+            android:textSize="@dimen/media_count_text_size"
+            app:layout_constraintStart_toEndOf="@id/media_count_image"
+            app:layout_constraintTop_toTopOf="@id/media_count_image" />
 
     </android.support.constraint.ConstraintLayout>
 
