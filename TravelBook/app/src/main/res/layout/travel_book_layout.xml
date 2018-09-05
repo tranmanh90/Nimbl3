@@ -12,20 +12,23 @@
         tools:context=".activities.TravelBookActivity">
 
         <Toolbar
+            android:id="@+id/tool_bar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
-            android:paddingEnd="20dp"
-            android:paddingStart="20dp">
+            android:paddingEnd="@dimen/tool_bar_padding_end"
+            android:paddingStart="@dimen/tool_bar_padding_start">
 
             <Button
-                android:layout_width="33dp"
-                android:layout_height="33dp"
+                android:id="@+id/search_button"
+                android:layout_width="@dimen/search_button_width"
+                android:layout_height="@dimen/search_button_height"
                 android:layout_gravity="start"
                 android:background="@drawable/search_button" />
 
             <Button
-                android:layout_width="33dp"
-                android:layout_height="33dp"
+                android:id="@+id/settings_button"
+                android:layout_width="@dimen/settings_button_width"
+                android:layout_height="@dimen/settings_button_height"
                 android:layout_gravity="end"
                 android:background="@drawable/settings_button" />
 
@@ -35,22 +38,22 @@
             layout="@layout/header_expandable_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="18dp"
-            android:layout_marginStart="28dp" />
+            android:layout_marginBottom="@dimen/header_expandable_layout_margin_bottom"
+            android:layout_marginStart="@dimen/header_expandable_layout_margin_start" />
 
         <TextView
             android:id="@+id/above"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#66CDD1DF" />
+            android:layout_height="@dimen/above_text_height"
+            android:background="@color/above_text_color" />
 
         <include layout="@layout/expandable_layout" />
 
         <TextView
             android:id="@+id/below"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#66CDD1DF"
+            android:layout_height="@dimen/below_text_height"
+            android:background="@color/below_text_color"
             android:visibility="gone" />
 
 
@@ -68,9 +71,9 @@
     </LinearLayout>
 
     <ProgressBar
-        android:layout_centerInParent="true"
         android:id="@+id/pBar"
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
 </RelativeLayout>
