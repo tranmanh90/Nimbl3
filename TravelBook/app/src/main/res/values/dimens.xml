@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_expandable">22sp</dimen>
+    <dimen name="margin_friend">28dp</dimen>
+    <dimen name="margin_community">28dp</dimen>
+    <dimen name="card_view_margin">8dp</dimen>
+    <dimen name="card_view_corner_radius">10dp</dimen>
+    <dimen name="avatar_circle_image_width">48dp</dimen>
+    <dimen name="avatar_circle_image_height">48dp</dimen>
+    <dimen name="avatar_circle_image_margin">8dp</dimen>
+    <dimen name="title_margin_end">16dp</dimen>
+    <dimen name="title_margin_start">12dp</dimen>
+    <dimen name="title_margin_top">14dp</dimen>
+    <dimen name="mounth_year_margin_end">17dp</dimen>
+    <dimen name="mounth_year_margin_top">20dp</dimen>
+    <dimen name="mounth_year_text_size">12sp</dimen>
+    <dimen name="media_image_width">0dp</dimen>
+    <dimen name="media_image_height">0dp</dimen>
+    <dimen name="media_image_margin_top">8dp</dimen>
+    <dimen name="address_blur_margin_start">10dp</dimen>
+    <dimen name="address_blur_margin_top">10dp</dimen>
+    <dimen name="favorite_button_padding">12dp</dimen>
+    <dimen name="comment_button_padding">12dp</dimen>
+    <dimen name="share_button_padding">12dp</dimen>
+
+
+</resources>
