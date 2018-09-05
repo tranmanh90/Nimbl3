@@ -11,4 +11,5 @@
     <color name="travel_book_text_color">#FF383E39</color>
     <color name="above_text_color">#66CDD1DF</color>
     <color name="below_text_color">#66CDD1DF</color>
+    <color name="media_count_text_color">#FFFFFFFF</color>
 </resources>

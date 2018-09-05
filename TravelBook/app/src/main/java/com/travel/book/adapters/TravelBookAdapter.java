@@ -50,6 +50,7 @@ public class TravelBookAdapter extends RecyclerView.Adapter<TravelBookAdapter.Tr
                 travelViewHolder.addressBlur.setText(travelModel.getIncludedUserPlaces().get(j).getAttributes().getName());
             }
         }
+        travelViewHolder.mediaCount.setText(travelModel.getTravelogues().get(i).getAttributes().getMediaCount());
         travelViewHolder.mounthYear.setText(dateTimeFormatUtil.convertDate(travelModel.getTravelogues().get(i).getAttributes().getPublishedAt()));
         Glide.with(context.getApplicationContext()).load(travelModel.getTravelogues().get(i).getAttributes().getCoverImageUrl()).thumbnail(0.5f).diskCacheStrategy(DiskCacheStrategy.ALL).into(travelViewHolder.mediaImage);
     }
@@ -66,9 +67,11 @@ public class TravelBookAdapter extends RecyclerView.Adapter<TravelBookAdapter.Tr
         private ImageView avatarImage;
         private ImageView mediaImage;
         private TextView mounthYear;
+        private TextView mediaCount;
 
         public TravelViewHolder(View view) {
             super(view);
+            mediaCount = view.findViewById(R.id.media_text_count);
             addressBlur = view.findViewById(R.id.address_blur);
             titleText = view.findViewById(R.id.title_text);
             avatarImage = view.findViewById(R.id.avatar_image);
