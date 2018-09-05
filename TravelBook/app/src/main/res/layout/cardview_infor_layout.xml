@@ -70,6 +70,9 @@
             android:layout_marginTop="@dimen/address_blur_margin_top"
             android:background="@drawable/address_blur"
             android:gravity="center"
+            android:lineSpacingMultiplier="1.25"
+            android:height="@dimen/address_blur_height"
+            android:width="@dimen/address_blur_width"
             app:layout_constraintStart_toStartOf="@id/media_image"
             app:layout_constraintTop_toTopOf="@id/media_image" />
 
