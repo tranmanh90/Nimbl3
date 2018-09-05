@@ -3,4 +3,5 @@
     <string name="title_expandable">Travelbooks</string>
     <string name="text_fiend">Friends</string>
     <string name="text_community">Community</string>
+    <string name="text_sort_by">Sort By</string>
 </resources>

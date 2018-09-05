@@ -7,4 +7,5 @@
     <color name="favorite_button_background">#00FFFFFF</color>
     <color name="comment_button_background">#00FFFFFF</color>
     <color name="share_button_background">#00FFFFFF</color>
+    <color name="sort_by_text_color">#FF393939</color>
 </resources>

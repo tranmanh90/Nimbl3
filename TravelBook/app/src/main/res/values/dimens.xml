@@ -22,6 +22,11 @@
     <dimen name="favorite_button_padding">12dp</dimen>
     <dimen name="comment_button_padding">12dp</dimen>
     <dimen name="share_button_padding">12dp</dimen>
+    <dimen name="sort_by_margin_start">28dp</dimen>
+    <dimen name="sort_by_margin_top">10dp</dimen>
+    <dimen name="sort_by_text_size">14sp</dimen>
+    <dimen name="buttons_layout_height">95dp</dimen>
+    <dimen name="buttons_layout_margin_top">18dp</dimen>
 
 
 </resources>
