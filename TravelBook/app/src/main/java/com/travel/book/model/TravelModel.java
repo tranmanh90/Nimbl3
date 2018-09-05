@@ -1,8 +1,8 @@
 package com.travel.book.model;
 
 import com.google.gson.annotations.SerializedName;
-import com.training.retrofit.model.travelogue.Travelogue;
-import com.training.retrofit.model.user.IncludedUserPlace;
+import com.travel.book.model.travelogue.Travelogue;
+import com.travel.book.model.user.IncludedUserPlace;
 
 import java.util.List;
 
