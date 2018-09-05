@@ -9,4 +9,6 @@
     <color name="share_button_background">#00FFFFFF</color>
     <color name="sort_by_text_color">#FF393939</color>
     <color name="travel_book_text_color">#FF383E39</color>
+    <color name="above_text_color">#66CDD1DF</color>
+    <color name="below_text_color">#66CDD1DF</color>
 </resources>
